@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF10C992199377B2004B54C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C991199377B2004B54C0 /* Foundation.framework */; };
+		FF10C994199377B2004B54C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C993199377B2004B54C0 /* CoreGraphics.framework */; };
+		FF10C996199377B2004B54C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C995199377B2004B54C0 /* UIKit.framework */; };
+		FF10C99C199377B2004B54C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF10C99A199377B2004B54C0 /* InfoPlist.strings */; };
+		FF10C99E199377B2004B54C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10C99D199377B2004B54C0 /* main.m */; };
+		FF10C9A2199377B2004B54C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10C9A1199377B2004B54C0 /* AppDelegate.m */; };
+		FF10C9A4199377B2004B54C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF10C9A3199377B2004B54C0 /* Images.xcassets */; };
+		FF10C9AB199377B2004B54C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C9AA199377B2004B54C0 /* XCTest.framework */; };
+		FF10C9AC199377B2004B54C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C991199377B2004B54C0 /* Foundation.framework */; };
+		FF10C9AD199377B2004B54C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF10C995199377B2004B54C0 /* UIKit.framework */; };
+		FF10C9B5199377B2004B54C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF10C9B3199377B2004B54C0 /* InfoPlist.strings */; };
+		FF10C9B7199377B2004B54C0 /* ResizableTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10C9B6199377B2004B54C0 /* ResizableTextViewTests.m */; };
+		FF10C9C2199377CC004B54C0 /* ResizableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10C9C1199377CC004B54C0 /* ResizableTextView.m */; };
+		FF10C9C519937804004B54C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10C9C419937804004B54C0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF10C9AE199377B2004B54C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF10C986199377B2004B54C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF10C98D199377B2004B54C0;
+			remoteInfo = ResizableTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF10C98E199377B2004B54C0 /* ResizableTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF10C991199377B2004B54C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF10C993199377B2004B54C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF10C995199377B2004B54C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF10C999199377B2004B54C0 /* ResizableTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableTextView-Info.plist"; sourceTree = "<group>"; };
+		FF10C99B199377B2004B54C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF10C99D199377B2004B54C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF10C99F199377B2004B54C0 /* ResizableTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizableTextView-Prefix.pch"; sourceTree = "<group>"; };
+		FF10C9A0199377B2004B54C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF10C9A1199377B2004B54C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF10C9A3199377B2004B54C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF10C9A9199377B2004B54C0 /* ResizableTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF10C9AA199377B2004B54C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF10C9B2199377B2004B54C0 /* ResizableTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		FF10C9B4199377B2004B54C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF10C9B6199377B2004B54C0 /* ResizableTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizableTextViewTests.m; sourceTree = "<group>"; };
+		FF10C9C0199377CB004B54C0 /* ResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableTextView.h; sourceTree = "<group>"; };
+		FF10C9C1199377CC004B54C0 /* ResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableTextView.m; sourceTree = "<group>"; };
+		FF10C9C319937804004B54C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF10C9C419937804004B54C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF10C98B199377B2004B54C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C994199377B2004B54C0 /* CoreGraphics.framework in Frameworks */,
+				FF10C996199377B2004B54C0 /* UIKit.framework in Frameworks */,
+				FF10C992199377B2004B54C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF10C9A6199377B2004B54C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C9AB199377B2004B54C0 /* XCTest.framework in Frameworks */,
+				FF10C9AD199377B2004B54C0 /* UIKit.framework in Frameworks */,
+				FF10C9AC199377B2004B54C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF10C985199377B2004B54C0 = {
+			isa = PBXGroup;
+			children = (
+				FF10C997199377B2004B54C0 /* ResizableTextView */,
+				FF10C9B0199377B2004B54C0 /* ResizableTextViewTests */,
+				FF10C990199377B2004B54C0 /* Frameworks */,
+				FF10C98F199377B2004B54C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF10C98F199377B2004B54C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C98E199377B2004B54C0 /* ResizableTextView.app */,
+				FF10C9A9199377B2004B54C0 /* ResizableTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF10C990199377B2004B54C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C991199377B2004B54C0 /* Foundation.framework */,
+				FF10C993199377B2004B54C0 /* CoreGraphics.framework */,
+				FF10C995199377B2004B54C0 /* UIKit.framework */,
+				FF10C9AA199377B2004B54C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF10C997199377B2004B54C0 /* ResizableTextView */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C9A0199377B2004B54C0 /* AppDelegate.h */,
+				FF10C9A1199377B2004B54C0 /* AppDelegate.m */,
+				FF10C9C0199377CB004B54C0 /* ResizableTextView.h */,
+				FF10C9C1199377CC004B54C0 /* ResizableTextView.m */,
+				FF10C9A3199377B2004B54C0 /* Images.xcassets */,
+				FF10C998199377B2004B54C0 /* Supporting Files */,
+				FF10C9C319937804004B54C0 /* ViewController.h */,
+				FF10C9C419937804004B54C0 /* ViewController.m */,
+			);
+			path = ResizableTextView;
+			sourceTree = "<group>";
+		};
+		FF10C998199377B2004B54C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C999199377B2004B54C0 /* ResizableTextView-Info.plist */,
+				FF10C99A199377B2004B54C0 /* InfoPlist.strings */,
+				FF10C99D199377B2004B54C0 /* main.m */,
+				FF10C99F199377B2004B54C0 /* ResizableTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF10C9B0199377B2004B54C0 /* ResizableTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C9B6199377B2004B54C0 /* ResizableTextViewTests.m */,
+				FF10C9B1199377B2004B54C0 /* Supporting Files */,
+			);
+			path = ResizableTextViewTests;
+			sourceTree = "<group>";
+		};
+		FF10C9B1199377B2004B54C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF10C9B2199377B2004B54C0 /* ResizableTextViewTests-Info.plist */,
+				FF10C9B3199377B2004B54C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF10C98D199377B2004B54C0 /* ResizableTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF10C9BA199377B2004B54C0 /* Build configuration list for PBXNativeTarget "ResizableTextView" */;
+			buildPhases = (
+				FF10C98A199377B2004B54C0 /* Sources */,
+				FF10C98B199377B2004B54C0 /* Frameworks */,
+				FF10C98C199377B2004B54C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizableTextView;
+			productName = ResizableTextView;
+			productReference = FF10C98E199377B2004B54C0 /* ResizableTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF10C9A8199377B2004B54C0 /* ResizableTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF10C9BD199377B2004B54C0 /* Build configuration list for PBXNativeTarget "ResizableTextViewTests" */;
+			buildPhases = (
+				FF10C9A5199377B2004B54C0 /* Sources */,
+				FF10C9A6199377B2004B54C0 /* Frameworks */,
+				FF10C9A7199377B2004B54C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF10C9AF199377B2004B54C0 /* PBXTargetDependency */,
+			);
+			name = ResizableTextViewTests;
+			productName = ResizableTextViewTests;
+			productReference = FF10C9A9199377B2004B54C0 /* ResizableTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF10C986199377B2004B54C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tapan;
+				TargetAttributes = {
+					FF10C9A8199377B2004B54C0 = {
+						TestTargetID = FF10C98D199377B2004B54C0;
+					};
+				};
+			};
+			buildConfigurationList = FF10C989199377B2004B54C0 /* Build configuration list for PBXProject "ResizableTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF10C985199377B2004B54C0;
+			productRefGroup = FF10C98F199377B2004B54C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF10C98D199377B2004B54C0 /* ResizableTextView */,
+				FF10C9A8199377B2004B54C0 /* ResizableTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF10C98C199377B2004B54C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C99C199377B2004B54C0 /* InfoPlist.strings in Resources */,
+				FF10C9A4199377B2004B54C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF10C9A7199377B2004B54C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C9B5199377B2004B54C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF10C98A199377B2004B54C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C9A2199377B2004B54C0 /* AppDelegate.m in Sources */,
+				FF10C99E199377B2004B54C0 /* main.m in Sources */,
+				FF10C9C519937804004B54C0 /* ViewController.m in Sources */,
+				FF10C9C2199377CC004B54C0 /* ResizableTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF10C9A5199377B2004B54C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF10C9B7199377B2004B54C0 /* ResizableTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF10C9AF199377B2004B54C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF10C98D199377B2004B54C0 /* ResizableTextView */;
+			targetProxy = FF10C9AE199377B2004B54C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF10C99A199377B2004B54C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF10C99B199377B2004B54C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF10C9B3199377B2004B54C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF10C9B4199377B2004B54C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF10C9B8199377B2004B54C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF10C9B9199377B2004B54C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF10C9BB199377B2004B54C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableTextView/ResizableTextView-Prefix.pch";
+				INFOPLIST_FILE = "ResizableTextView/ResizableTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF10C9BC199377B2004B54C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableTextView/ResizableTextView-Prefix.pch";
+				INFOPLIST_FILE = "ResizableTextView/ResizableTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF10C9BE199377B2004B54C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizableTextView.app/ResizableTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableTextView/ResizableTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ResizableTextViewTests/ResizableTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF10C9BF199377B2004B54C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizableTextView.app/ResizableTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableTextView/ResizableTextView-Prefix.pch";
+				INFOPLIST_FILE = "ResizableTextViewTests/ResizableTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF10C989199377B2004B54C0 /* Build configuration list for PBXProject "ResizableTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF10C9B8199377B2004B54C0 /* Debug */,
+				FF10C9B9199377B2004B54C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF10C9BA199377B2004B54C0 /* Build configuration list for PBXNativeTarget "ResizableTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF10C9BB199377B2004B54C0 /* Debug */,
+				FF10C9BC199377B2004B54C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF10C9BD199377B2004B54C0 /* Build configuration list for PBXNativeTarget "ResizableTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF10C9BE199377B2004B54C0 /* Debug */,
+				FF10C9BF199377B2004B54C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF10C986199377B2004B54C0 /* Project object */;
+}
