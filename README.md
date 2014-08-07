@@ -17,5 +17,5 @@ Just import the ResizableTextView.h & ResizableTextView.m files into your projec
 Demo
 ====
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/thegreatloser/ResizableTextView/blob/master/ResizableTextView.gif "Demo - ResizableTextView")
 
